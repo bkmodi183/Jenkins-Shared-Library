@@ -6,7 +6,16 @@ A **Jenkins Shared Library** to provide reusable pipeline steps, helper classes,
 
 ## Repository Structure
 
-<pre> ```plaintext (root) ├── vars/ # Global steps/functions callable from Jenkinsfiles │ └── example.groovy ├── src/ # Groovy classes with packages │ └── org/example/Helper.groovy └── resources/ # Templates and static resources └── myTemplate.txt ``` </pre>
+<pre>
+(root)
+├── vars/           # Global steps/functions callable from Jenkinsfiles
+│   └── example.groovy
+├── src/            # Groovy classes with packages
+│   └── org/example/Helper.groovy
+└── resources/      # Templates and static resources
+    └── myTemplate.txt
+</pre>
+
 
 **Explanation:**
 
