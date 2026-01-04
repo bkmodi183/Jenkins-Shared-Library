@@ -1,4 +1,4 @@
-def docker_push(String dockerHubCreds, String imageName)
+def call(String dockerHubCreds, String imageName)
 {
   withCredentials([usernamePassword(
                 credentialsId:"${dockerHubCreds}",
